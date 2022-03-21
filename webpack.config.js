@@ -4,9 +4,15 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: {
-          loader: "babel-loader",
-        },
+        use: [
+          //{ loader: "style-loader" },
+          //{ loader: "css-loader" },
+          { loader: "babel-loader" },
+        ],
+      },
+      {
+        test: /\.css$/,
+        use: [{ loader: "style-loader" }, { loader: "css-loader" }],
       },
     ],
   },

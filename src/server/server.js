@@ -1,7 +1,7 @@
 import express from "express";
 import ReactDOMServer from "react-dom/server";
 
-import App from "../components/app";
+import App from "../components/App.js";
 
 const server = express();
 server.use(express.static("dist"));
