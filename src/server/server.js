@@ -2,6 +2,7 @@ import express from "express";
 import ReactDOMServer from "react-dom/server";
 
 import App from "../components/App.js";
+//import "bootstrap/dist/css/bootstrap.css";
 
 const server = express();
 server.use(express.static("dist"));
@@ -12,7 +13,7 @@ server.get("/", (req, res) => {
   res.send(`
     <html>
       <head>
-        <title>Sample React App</title>
+        <title>Christopher Olcheski - Developer</title>
       </head>
       <body>
         <div id="mountNode">${initialMarkup}</div>

@@ -5,8 +5,8 @@ import Button from "react-bootstrap/Button";
 export default function App() {
   const [count, setCount] = useState(0);
   return (
-    <div className="row">
-      <div className="col-xs-12">
+    <div>
+      <div>
         This is a sample stateful and server-side rendered React application.
         <br />
         <br />
