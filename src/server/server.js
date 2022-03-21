@@ -1,5 +1,6 @@
 import express from "express";
 import ReactDOMServer from "react-dom/server";
+import SSRProvider from "react-bootstrap/SSRProvider";
 
 import App from "../components/App.js";
 //import "bootstrap/dist/css/bootstrap.css";
@@ -8,14 +9,18 @@ const server = express();
 server.use(express.static("dist"));
 
 server.get("/", (req, res) => {
-  const initialMarkup = ReactDOMServer.renderToString(<App />);
+  const initialMarkup = ReactDOMServer.renderToString(
+    <SSRProvider>
+      <App />
+    </SSRProvider>
+  );
 
   res.send(`
     <html>
       <head>
-        <title>Christopher Olcheski - Developer</title>
+        <title>Chris Olcheski - Full Stack Developer</title>
       </head>
-      <body>
+      <body class='container p-3 my-3 bg-dark text-white'>
         <div id="mountNode">${initialMarkup}</div>
         <script src="/main.js"></script>
       </body>
