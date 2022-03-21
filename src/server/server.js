@@ -3,7 +3,6 @@ import ReactDOMServer from "react-dom/server";
 import SSRProvider from "react-bootstrap/SSRProvider";
 
 import App from "../components/App.js";
-//import "bootstrap/dist/css/bootstrap.css";
 
 const server = express();
 server.use(express.static("dist"));
