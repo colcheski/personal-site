@@ -4,7 +4,7 @@ import Contact from "./Contact";
 
 export default function App() {
   return (
-    <Container>
+    <Container fluid>
       <Row>
         <Col>
           <Tabs defaultActiveKey="home" id="tabs">
