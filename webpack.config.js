@@ -10,6 +10,18 @@ module.exports = {
         test: /\.css$/,
         use: [{ loader: "style-loader" }, { loader: "css-loader" }],
       },
+      /*{
+        test: /\.svg/,
+        type: "asset/resource",
+      },*/
     ],
   },
+  output: {
+    clean: true,
+  } /*
+  /*plugins: [
+    new HtmlWebpackPlugin({
+      favicon: "./src/images/favicon.svg",
+    }),
+  ],*/,
 };

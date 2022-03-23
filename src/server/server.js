@@ -1,12 +1,14 @@
 import express from "express";
 import ReactDOMServer from "react-dom/server";
 import SSRProvider from "react-bootstrap/SSRProvider";
-
 import App from "../components/App.js";
-//import image from "../images/Me.jpg";
+
+const favicon = require("serve-favicon");
+const path = require("path");
 
 const server = express();
 server.use(express.static("dist"));
+server.use(favicon(path.join(__dirname, "../images", "favicon.ico")));
 
 server.get("/", (req, res) => {
   const initialMarkup = ReactDOMServer.renderToString(
