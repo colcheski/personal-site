@@ -16,6 +16,7 @@ module.exports = {
     },
     sourceType: "module",
   },
+  ignorePatterns: ["**/dist/*.js"],
   plugins: ["react", "react-hooks"],
   extends: [
     "eslint:recommended",

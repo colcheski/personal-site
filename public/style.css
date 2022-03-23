@@ -1,0 +1,15 @@
+.meBackground {
+  background: linear-gradient(
+      135deg,
+      hsl(196, 76%, 31%, 0.35),
+      hsl(175, 52%, 31%, 0.55)
+    ),
+    url("../public/images/Me.jpg") no-repeat 40% 20% / cover;
+  object-fit: contain;
+  object-position: -20% 0;
+  height: 100vh;
+}
+
+.blackTest {
+  background: black;
+}
