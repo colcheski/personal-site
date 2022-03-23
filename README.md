@@ -11,6 +11,7 @@ Pages (possibly set up in tabs):
 Home - Picture of me behind fancy text with a quick paragraph. You can see an example of this at this URL: https://collegeinfogeek.com/wp-content/uploads/2014/03/samkapila-650x364.jpg
 
 About - I want reactful appearing pictures on the sides of text about me: https://www.creative-tim.com/blog/web-design/create-scrolling-transformations-react-app/
+
 **NEW NOTE**
 We need sticky sidebars for what I'm trying to go for: https://codepen.io/ncerminara/pen/VdLpzd?editors=1100
 
