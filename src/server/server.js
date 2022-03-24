@@ -19,6 +19,10 @@ server.get("/", (req, res) => {
     </SSRProvider>
   );
 
+  //replace body tag with the following to go back to original design
+  /*
+  <body class='meBackground text-white'>
+  */
   res.send(
     `
     <html>
@@ -26,7 +30,7 @@ server.get("/", (req, res) => {
         <link rel="stylesheet" href="/css">
         <title>Chris Olcheski - Full Stack Developer</title>
       </head>
-      <body class='meBackground text-white'>
+      <body class='bg-secondary text-white'>
         <div id="mountNode">${initialMarkup}</div>
         <script src="/main.js"></script>
       </body>

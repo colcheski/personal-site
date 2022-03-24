@@ -35,6 +35,8 @@
     url("../public/images/Me.jpg") no-repeat 40% 20% / cover;
   object-position: -20% 0;
   background-repeat: no-repeat;
+  /* Remove the height attribute for original functionality */
+  height: 100vh;
 }
 
 .testimonials {
@@ -52,6 +54,8 @@
     url("../public/images/CourtneyMeOliveGrace.jpg") no-repeat 40% 20% / cover;
   object-position: -20% 0;
   background-repeat: no-repeat;
+  /* Remove the height attribute for original functionality */
+  height: 100vh;
 }
 
 .contentSection {

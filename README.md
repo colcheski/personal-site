@@ -30,3 +30,5 @@ Blog - Think about possibly starting a blog. This will probably have code snippe
 Additional Considerations:
 
 Possibly have my social media on both the contact and home page
+
+There is a scroll technique for react available here: https://stackblitz.com/edit/react-ls1dwp
