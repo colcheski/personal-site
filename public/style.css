@@ -5,11 +5,17 @@
       hsl(175, 52%, 31%, 0.55)
     ),
     url("../public/images/Me.jpg") no-repeat 40% 20% / cover;
-  object-fit: contain;
   object-position: -20% 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
 }
 
-.blackTest {
-  background: black;
+.makeMeSticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  padding: 50px;
+  font-size: 20px;
 }

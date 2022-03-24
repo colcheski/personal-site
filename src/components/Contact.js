@@ -6,7 +6,11 @@ class Contact extends Component {
   }
 
   render() {
-    return <div>This is my Contact Page</div>;
+    return (
+      <div className="makeMeSticky" style={{ marginTop: "1020px" }}>
+        This is my Contact Page
+      </div>
+    );
   }
 }
 export default Contact;
