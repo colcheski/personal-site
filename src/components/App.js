@@ -29,13 +29,10 @@ import Contact from "./Contact";
 </Container>*/
 
 export default function App() {
-  const boxHeight = {
-    height: "5000px",
-  };
   return (
     <>
       <Navigation />
-      <div style={boxHeight}>
+      <div className="contentSection">
         <Container style={{ height: "1000px" }} fluid>
           <Home />
           <Contact />
