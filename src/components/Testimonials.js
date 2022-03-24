@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-const Home = () => {
+const Testimonials = () => {
   const [count, setCount] = useState(0);
   const testText = `Stimulate your mind as you test your typing speed with this standard English paragraph typing test. Watch your typing speed and accuracy increase as you learn about a variety of new topics! Over 40 typing test selections available.
   If you don't like a test prompt, you can get a different (random) prompt with the "change test" button - or select a specific paragraph to type from the list below. To find out how fast you type, just start typing in the blank textbox o
@@ -32,7 +32,7 @@ const Home = () => {
     <>
       <Row style={{ minHeight: "1000px" }}>
         <Col xxl={6}>
-          <Row style={{ minHeight: "800px" }} className="about">
+          <Row style={{ minHeight: "800px" }} className="testimonials">
             <div>
               This is a sample stateful and server-side rendered React
               application.
@@ -53,4 +53,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Testimonials;

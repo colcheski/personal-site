@@ -20,6 +20,40 @@
   font-size: 20px;
 }
 
+.about {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 50px;
+  font-size: 20px;
+
+  background: linear-gradient(
+      135deg,
+      hsl(196, 76%, 31%, 0.35),
+      hsl(175, 52%, 31%, 0.55)
+    ),
+    url("../public/images/Me.jpg") no-repeat 40% 20% / cover;
+  object-position: -20% 0;
+  background-repeat: no-repeat;
+}
+
+.testimonials {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 50px;
+  font-size: 20px;
+
+  background: linear-gradient(
+      135deg,
+      hsl(196, 76%, 31%, 0.35),
+      hsl(175, 52%, 31%, 0.55)
+    ),
+    url("../public/images/CourtneyMeOliveGrace.jpg") no-repeat 40% 20% / cover;
+  object-position: -20% 0;
+  background-repeat: no-repeat;
+}
+
 .contentSection {
   min-height: 2000px;
 }

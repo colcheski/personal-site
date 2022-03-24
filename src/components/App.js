@@ -7,6 +7,7 @@ import {
 } from "react-bootstrap";
 import Navigation from "./Navigation";
 import Home from "./Home";
+import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 
 /* Original Working Structure */
@@ -35,6 +36,7 @@ export default function App() {
       <div className="contentSection">
         <Container style={{ height: "1000px" }} fluid>
           <Home />
+          <Testimonials />
           <Contact />
         </Container>
       </div>
