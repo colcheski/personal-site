@@ -1,10 +1,4 @@
-import {
-  //Tabs,
-  //Tab,
-  //Row,
-  //Col,
-  Container,
-} from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Navigation from "./Navigation";
 import Home from "./Home";
 import Testimonials from "./Testimonials";

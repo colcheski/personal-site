@@ -30,7 +30,7 @@ const Home = () => {
   you need to get 100% accuracy. You can fix errors as you go, or correct them at the end with the help of the spell checker.`;
   return (
     <>
-      <Row style={{ minHeight: "1000px" }}>
+      <Row id="about" style={{ minHeight: "1000px" }}>
         <Col xxl={6}>
           <Row style={{ minHeight: "800px" }} className="about">
             <div>
